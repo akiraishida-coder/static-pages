@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>README - ピグマリオン セールス分析</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif; display: flex; min-height: 100vh; }
+.sidebar { width: 280px; min-width: 280px; background: #f8f9fa; padding: 1rem; border-right: 1px solid #e9ecef; overflow-y: auto; }
+.sidebar h3 { margin: 0 0 1rem 0; font-size: 1rem; color: #333; }
+.sidebar-item { display: block; padding: 0.6rem 0.75rem; color: #333; text-decoration: none; border-radius: 6px; margin-bottom: 4px; font-size: 0.9rem; }
+.sidebar-item:hover { background: #e9ecef; }
+.sidebar-item.active { background: #0d6efd; color: white; }
+.sidebar .date { font-size: 0.75rem; color: #6c757d; margin-right: 0.5rem; display: block; }
+.sidebar-item.active .date { color: rgba(255,255,255,0.8); }
+.main { flex: 1; padding: 2rem 3rem; max-width: 900px; line-height: 1.8; overflow-y: auto; }
+.main h1 { font-size: 1.75rem; margin-top: 0; }
+.main h2 { font-size: 1.4rem; margin-top: 2rem; border-bottom: 1px solid #e9ecef; padding-bottom: 0.5rem; }
+.main h3 { font-size: 1.15rem; margin-top: 1.5rem; }
+.main pre { overflow-x: auto; background: #f5f5f5; padding: 1rem; border-radius: 6px; font-size: 0.9rem; }
+.main code { background: #f0f0f0; padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.9em; }
+.main pre code { background: none; padding: 0; }
+.main table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+.main th, .main td { border: 1px solid #ddd; padding: 0.6rem; text-align: left; }
+.main th { background: #f8f9fa; }
+.main ul, .main ol { padding-left: 1.5rem; }
+.main li { margin: 0.3rem 0; }
+.main a { color: #0d6efd; text-decoration: none; }
+.main a:hover { text-decoration: underline; }
+.main a[target="_blank"]::after { content: " ↗"; font-size: 0.8em; }
+</style>
+</head>
+<body>
+<nav class="sidebar">
+<h3>ピグマリオン セールス分析</h3>
+<a href="026.html" class="sidebar-item active"><span class="date">2026年03月21日</span> README</a>
+<a href="027.html" class="sidebar-item"><span class="date">2026年03月21日</span> 命名ルール</a>
+<a href="20260319.html" class="sidebar-item"><span class="date">2026年03月19日</span> 20260319_宮原真貴子_conica_分析</a>
+<a href="20260319.html" class="sidebar-item"><span class="date">2026年03月19日</span> 20260319_田中舞_SHINO_分析</a>
+<a href="20260319.html" class="sidebar-item"><span class="date">2026年03月19日</span> 20260319_魚津優子_角田友佳_分析</a>
+<a href="20260318.html" class="sidebar-item"><span class="date">2026年03月18日</span> 20260318_尾﨑靖子_conica_分析</a>
+<a href="20260317.html" class="sidebar-item"><span class="date">2026年03月17日</span> 20260317_松井さくら_あみーご_分析</a>
+<a href="20260316.html" class="sidebar-item"><span class="date">2026年03月16日</span> 20260316_桶谷麻衣_conica_分析</a>
+<a href="20260310.html" class="sidebar-item"><span class="date">2026年03月10日</span> 20260310_東原あんず_あみーご_分析</a>
+<a href="20260309.html" class="sidebar-item"><span class="date">2026年03月09日</span> 20260309_本宮美由紀_あみーご_分析</a>
+<a href="20260305.html" class="sidebar-item"><span class="date">2026年03月05日</span> 20260305_東りか_conica_分析</a>
+<a href="20260305.html" class="sidebar-item"><span class="date">2026年03月05日</span> 20260305_籾山亜紀_conica_分析</a>
+<a href="20260304.html" class="sidebar-item"><span class="date">2026年03月04日</span> 20260304_村田敦子_あみーご_分析</a>
+<a href="20260304.html" class="sidebar-item"><span class="date">2026年03月04日</span> 20260304_橋本みゆき_角田友佳_分析</a>
+<a href="20260302.html" class="sidebar-item"><span class="date">2026年03月02日</span> 20260302_三ツ木由美_conica_分析</a>
+<a href="20260302.html" class="sidebar-item"><span class="date">2026年03月02日</span> 20260302_森谷真由美_SHINO_分析</a>
+<a href="20260226.html" class="sidebar-item"><span class="date">2026年02月26日</span> 20260226_中江穂奈美_不明_分析</a>
+<a href="20260226.html" class="sidebar-item"><span class="date">2026年02月26日</span> 20260226_岩崎明子_conica_分析</a>
+<a href="20260224.html" class="sidebar-item"><span class="date">2026年02月24日</span> 20260224_岸本莉紗_SHINO_分析</a>
+<a href="20260224.html" class="sidebar-item"><span class="date">2026年02月24日</span> 20260224_駒山瑞生_conica_分析</a>
+<a href="20260222.html" class="sidebar-item"><span class="date">2026年02月22日</span> 20260222_伊藤灯子_不明_分析</a>
+<a href="20260221.html" class="sidebar-item"><span class="date">2026年02月21日</span> 20260221_山下真紀_角田友佳_分析</a>
+<a href="20260220.html" class="sidebar-item"><span class="date">2026年02月20日</span> 20260220_佐々木彩奈_あみーご_分析</a>
+<a href="20260220.html" class="sidebar-item"><span class="date">2026年02月20日</span> 20260220_成田やよい_あみーご_分析</a>
+<a href="20260219.html" class="sidebar-item"><span class="date">2026年02月19日</span> 20260219_加納遥_不明_分析</a>
+<a href="20260218.html" class="sidebar-item"><span class="date">2026年02月18日</span> 20260218_大橋優気_conica_分析</a>
+<a href="20260218.html" class="sidebar-item"><span class="date">2026年02月18日</span> 20260218_水野るい子_不明_分析</a>
+</nav>
+<main class="main">
+<h1>セールス分析フォルダ</h1>
+<p>このフォルダには、セールス原本（セールス原本フォルダ内）を分析した結果を格納する。</p>
+<hr />
+<h2>命名ルール</h2>
+<ul>
+<li>形式：<code>日付 + 個別説明会with + 名前 + さん_分析.md</code>（または <code>日付 + 名前 + さん_分析.md</code>）</li>
+<li>例：<code>20260218個別説明会with大橋優気さん_分析.md</code>、<code>20260218水野るい子さん_分析.md</code></li>
+<li>セールス原本のファイル名と先頭文字列を揃える（原本は「_分析」なし）</li>
+</ul>
+<hr />
+<h2>参照</h2>
+<ul>
+<li>セールス原本：<code>../セールス原本/</code> フォルダ内の各回</li>
+<li>個別説明会_セールス成功失敗マニュアル.md</li>
+<li>質疑応答の理想回答集.md</li>
+<li>旦那対策_完全マニュアル.md</li>
+</ul>
+</main>
+</body>
+</html>

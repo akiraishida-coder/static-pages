@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20260322_tel_ref04_分析 - PLC田中 電話分析（ローンチセールス）</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif; display: flex; min-height: 100vh; }
+.sidebar { width: 280px; min-width: 280px; background: #f8f9fa; padding: 1rem; border-right: 1px solid #e9ecef; overflow-y: auto; }
+.sidebar h3 { margin: 0 0 1rem 0; font-size: 1rem; color: #333; }
+.sidebar-item { display: block; padding: 0.6rem 0.75rem; color: #333; text-decoration: none; border-radius: 6px; margin-bottom: 4px; font-size: 0.9rem; }
+.sidebar-item:hover { background: #e9ecef; }
+.sidebar-item.active { background: #0d6efd; color: white; }
+.sidebar .date { font-size: 0.75rem; color: #6c757d; margin-right: 0.5rem; display: block; }
+.sidebar-item.active .date { color: rgba(255,255,255,0.8); }
+.main { flex: 1; padding: 2rem 3rem; max-width: 900px; line-height: 1.8; overflow-y: auto; }
+.main h1 { font-size: 1.75rem; margin-top: 0; }
+.main h2 { font-size: 1.4rem; margin-top: 2rem; border-bottom: 1px solid #e9ecef; padding-bottom: 0.5rem; }
+.main h3 { font-size: 1.15rem; margin-top: 1.5rem; }
+.main pre { overflow-x: auto; background: #f5f5f5; padding: 1rem; border-radius: 6px; font-size: 0.9rem; }
+.main code { background: #f0f0f0; padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.9em; }
+.main pre code { background: none; padding: 0; }
+.main table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+.main th, .main td { border: 1px solid #ddd; padding: 0.6rem; text-align: left; }
+.main th { background: #f8f9fa; }
+.main ul, .main ol { padding-left: 1.5rem; }
+.main li { margin: 0.3rem 0; }
+.main a { color: #0d6efd; text-decoration: none; }
+.main a:hover { text-decoration: underline; }
+.main a[target="_blank"]::after { content: " ↗"; font-size: 0.8em; }
+</style>
+</head>
+<body>
+<nav class="sidebar">
+<h3>PLC田中 電話分析（ローンチセールス）</h3>
+<a href="20260406.html" class="sidebar-item"><span class="date">2026年04月06日</span> 20260406_野口究_石田明_電話分析</a>
+<a href="20260322.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref01_分析</a>
+<a href="20260322-1e10f68d34b8.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref02_分析</a>
+<a href="20260322-06ab388cc611.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref03_分析</a>
+<a href="20260322-523d140f57a1.html" class="sidebar-item active"><span class="date">2026年03月22日</span> 20260322_tel_ref04_分析</a>
+<a href="20260322-6f2d4bfcf271.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref05_分析</a>
+<a href="20260322-2d393b19750c.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref06_分析</a>
+<a href="20260322-8b97e4de2618.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref07_分析</a>
+<a href="20260322-0f4f328f42c9.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref08_分析</a>
+<a href="20260322-da1bb4ed438f.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref09_分析</a>
+<a href="20260322-8b4d5afb0d77.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_tel_ref10_分析</a>
+<a href="20260322-d13d12863833.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_吉田_石田明_電話分析</a>
+<a href="20260322-1715f340f713.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_工藤_石田明_電話分析</a>
+<a href="20260322-f16d98e4e76b.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_時田_石田明_電話分析</a>
+<a href="20260322-824981b26e6e.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_池田_石田明_電話分析</a>
+<a href="20260322-3307a9028463.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_石本_石田明_電話分析</a>
+<a href="20260322-6679345c6526.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_藤原_石田明_電話分析</a>
+<a href="20260322-790b0f124a5b.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_西_石田明_電話分析</a>
+<a href="20260322-934889c386c1.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_野村_石田明_電話分析</a>
+<a href="20260322-45a5110388ff.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_高本えいこ_石田明_電話分析</a>
+<a href="20260322-f920e5756016.html" class="sidebar-item"><span class="date">2026年03月22日</span> 20260322_高瀬_石田明_電話分析</a>
+</nav>
+<main class="main">
+<pre>## 閲覧用URL（静的ページ）
+
+公開ページ: <a href="https://cdn.jsdelivr.net/gh/akiraiishida-coder/static-pages@main/plc-tanaka-phone-analysis/20260322-523d140f57a1.html" target="_blank" rel="noopener noreferrer">https://cdn.jsdelivr.net/gh/akiraiishida-coder/static-pages@main/plc-tanaka-phone-analysis/20260322-523d140f57a1.html</a>
+
+リポジトリ内の本文と同一内容が、このURL先のHTMLにも表示されます。`02_ツール/静的ページ生成/静的記事ページ生成.py --generate-all` でHTMLを生成し、運用どおり `静的ページ同期.py` でデプロイしたあとにアクセス可能になります。
+
+# 20260322 ref04 セールス分析（電話）
+
+原本は `21_プロモ案件一覧/田中祐一/セールス情報/` 配下の参考書き起こし（電話相談 01〜10 シリーズ）。共有・学習用に固有名詞は伏せ字または匿名表記。
+
+分析の着眼点は `../セールス分析/PLC_評価チェックリスト_叩き台.md` に沿う。
+
+---
+
+## 基本情報
+
+| 項目 | 内容 |
+|------|------|
+| 顧客（共有用表記） | 受講生 ref04（工藤さん・ブラック企業・長時間労働） |
+| フェーズ | 電話のみ |
+| 実施日 | 2026-03-22 |
+| セールス担当 | セールス担当（書き起こし上の表記に準拠） |
+| 結果 | Zoom 日程確定 |
+| 支払・決済 | 書き起こし範囲外の場合は「要原本確認」 |
+| 特記 | 法定書面・決済の有無は原本・録画で確認 |
+
+### 参照した原本
+
+| 種別 | パス（リポジトリルートからの相対） |
+|------|------|
+| 書き起こし | `21_プロモ案件一覧/田中祐一/セールス情報/02_電話時の資料/電話相談書き起こし/04_電話相談書き起こし_04.md` |
+
+### 照合した社内ドキュメント
+
+- `../セールス分析/PLC_セールス分析_テンプレート.md`
+- `../セールス分析/PLC_評価チェックリスト_叩き台.md`
+- `../セールス分析/命名ルール.md`
+- `../../12_PLCプロモ素材集/田中祐一個別セールス/00_セールスの流れ.md`（存在する場合）
+
+---
+
+## 1. 良かった点
+
+- 動画からの動機・興味ポイントを質問で引き出している
+- SNS・副業・本業のストレスをヒアリングし共感の土台を作っている
+- Zoom 説明会が「電話の延長」であることを説明
+
+---
+
+## 2. 改善点・今後の伸びしろ
+
+- 感情面が強いテーマは、次回以降のフォロー文面で配慮を継続
+
+---
+
+## 3. マニュアルとの照合（概要）
+
+| 観点 | メモ |
+|------|------|
+| 成功例との一致 | `PLC_成功例・理想回答・新パターン_素案.md` の該当パターンと照合し、一致した流れがあれば追記 |
+| 電話のみ / Zoom の切り分け | 本件は 電話 中心。該当しないチェック項目は「該当なし」 |
+
+### 新しいパターン（マニュアル追記候補）
+
+- 本案件特有の論点があれば `セールスマニュアル` 側に追記検討
+
+---
+
+## 4. 総合評価
+
+| 項目 | 評価 |
+|------|------|
+| ラポール構築 | ◎/○/△ のいずれか（原本を踏まえて再評価可） |
+| 課題の明確化 | ◎/○/△ |
+| 解決策の提示・PLC とのマッチ | ◎/○/△ |
+| クロージング・着地 | ◎/○/△ |
+| 総合 | B+ |
+
+### 所見
+
+転職・労働環境の話が出るケース。セールスに関係する範囲だけを整理し、個別相談の価値に接続できているかが鍵。
+
+---
+
+## 参照
+
+- `../セールス分析/PLC_評価チェックリスト_叩き台.md`
+- `../セールス分析/命名ルール.md`
+- `README.md`
+
+---
+Produced by KATSUO MARKETING
+Version: 1.0 (2026-03-30)
+Licensed to: KATSUO MARKETING Community Member
+Security Trace ID: 8MDD4V30
+Generated by: 田中祐一
+---
+</pre>
+</main>
+</body>
+</html>
